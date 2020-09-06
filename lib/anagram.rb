@@ -9,7 +9,8 @@ class Anagram
   
   def match(word)
    word.collect do |w|
-     w.compare
+     w.compare(@word)
+   end
   end
   
 end
