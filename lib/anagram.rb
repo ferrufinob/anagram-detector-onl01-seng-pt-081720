@@ -9,8 +9,9 @@ class Anagram
   
   def match(word)
    word.collect do |w|
-    w == @word
-
+     if w == @word.split(",")
+       
+   end
    end
   end
   
