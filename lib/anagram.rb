@@ -8,7 +8,7 @@ class Anagram
   end
   
   def match(word_list)
-   word_list.collect d
+   word_list.collect do 
        
    end
    end
