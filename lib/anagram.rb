@@ -11,7 +11,6 @@ class Anagram
    word_list.collect do |word|
      @word.split("").sort == word.split("").sort
    end
-   end
   end
   
 end
